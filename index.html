@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <h1>SPACE DESIGN</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#empresa">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/01/23/06/58/modern-minimalist-lounge-3100785_1280.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/06/29/08/19/leave-room-825316_1280.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/06/30/18/36/st-826688_1280.jpg">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <article class="card">
+                        <img src="./images/card1.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Design de Interiores</h4>
+                            <p class="card-texto">
+                                O Design de Interiores não é apenas aquilo que se vê, mas também aquilo que se sente. O objetivo é aliar um espaço bem aproveitado e estruturado a beleza e a estética, bem como a funcionalidade e ao conforto. Criamos ambientes únicos, com peças desenhadas a medida de cada espaço e de acordo com as especificações pretendidas pelo Cliente. Podemos fazer o projeto de uma habitação inteira ou individualmente por divisão.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-4">
+                    <article class="card">
+                        <img src="./images/card2.jpg" alt="">
+                    <div class="card-body">
+                            <h4 class="card-title">Arquitetura de Interiores</h4>
+                            <p class="card-texto">
+                                Desenvolvemos as soluções mais adequadas ao seu espaço, quer seja para habitação, escritório ou comércio. As nossas propostas de layout são apresentadas conforme as ideias e necessidades de cada Cliente e adequadas ao espaço interior a intervencionar, tendo em vista a otimização, organização e funcionalidade de cada espaço. Elaboramos plantas e pormenores com base nas expectativas do Consumidor.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-4">
+                    <article class="card">
+                        <img src="./images/card3.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Projetos Feng-Shui</h4>
+                            <p class="card-texto">
+                                A arte do Feng Shui estuda a influência do espaço no nosso bem-estar e a forma como os locais onde vivemos e trabalhamos se refletem no modo como os sentimos. A aplicação das técnicas de Feng Shui permite sintonizar e usar essa energia favoravelmente e obter uma vida plena e em equilíbrio com o meio envolvente. Um projeto de Feng Shui possibilita harmonizar, equilibrar e potenciar as energias dos espaços.
+                            </p>
+                            <a href="#" id="button-card" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
